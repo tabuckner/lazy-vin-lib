@@ -31,11 +31,11 @@ class MyClass {
   }
 
   someMethod(): string {
-    return this.lazyVin.getRandomDirtyVin();
+    return this.lazyVin.getRandomCleanVin();
   }
 
   someRiskierMethod(): string {
-    return this.lazyVin.getRandomCleanVin();
+    return this.lazyVin.getRandomDirtyVin();
   }
 }
 ```
