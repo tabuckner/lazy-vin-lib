@@ -2,17 +2,17 @@
   "name": "lazy-vin-lib",
   "version": "0.0.1",
   "description": "",
-  "keywords": [],
+  "keywords": ["vin", "lazy", "VIN"],
   "main": "dist/lazy-vin-lib.umd.js",
   "module": "dist/lazy-vin-lib.es5.js",
   "typings": "dist/types/lazy-vin-lib.d.ts",
   "files": [
     "dist"
   ],
-  "author": "Taylor Buckner <tbuckner@theappraisallane.com>",
+  "author": "Taylor Buckner <taylora.buckner@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tabuckner/lazy-vin-lib"
   },
   "license": "MIT",
   "engines": {
