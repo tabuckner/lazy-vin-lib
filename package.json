@@ -1,6 +1,6 @@
 {
   "name": "lazy-vin-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "keywords": ["vin", "lazy", "VIN"],
   "main": "dist/lazy-vin-lib.umd.js",
