@@ -4,5 +4,6 @@ const myLazyVin = new LazyVinLib()
 const iterations = 50;
 for (let i = 0; i < iterations; i++) {
   const vin = myLazyVin.getRandomCleanVin();
-  console.log(vin);
+  const test = myLazyVin.fixCheckDigit(vin);
+  console.log({vin, test});
 }

@@ -30,6 +30,10 @@ class MyClass {
     this.lazyVin = new LazyVin();
   }
 
+  someSlightlyBetterMethod(): string {
+    return this.lazyVin.getRandomValidVin();
+  }
+
   someMethod(): string {
     return this.lazyVin.getRandomCleanVin();
   }
@@ -42,7 +46,10 @@ class MyClass {
 
 ### Methods
 
-This library exposes the following meethods:
+This library exposes the following methods:
+
+#### getRandomValidVin()
+Returns a quick and dirty 'random' VIN, complete with a North American [valid Check Digit](https://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)/Check_digit).
 
 #### getRandomDirtyVin()
 A simple, quick and dirty 'random' VIN. It is not guaranteed to be valid. ...did I mention it's quick and dirty?
