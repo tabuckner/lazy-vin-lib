@@ -9,6 +9,9 @@
 
 A very quick and very dirty library for getting random VINs.
 
+[StackBlitz Demo](https://stackblitz.com/edit/lazy-vin-lib-demo)
+[App Using the Library](https://tabuckner.github.io/barcode-tool)
+
 ## Usage
 
 ### Importing library
